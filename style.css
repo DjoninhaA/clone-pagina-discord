@@ -1,40 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@300&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+    /* background: linear-gradient(71.48deg, #304F44 -1.19%, #459884 -1.18%, #528E8E 85.42%); */
 
-body{
-    font-family:"roboto", sans-serif;
-    background-color: rgb(22,22,22);
-}
-
-.logo{
-    width: 42px;
-    height: 42px;
-    border-radius: 100px;
-    background-color: blueviolet;
-    margin: 20px; /*centralizando o logo*/
-    cursor: pointer;
-}
-
-header{
-    height: 10vh;
+.header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(15,15,15);
-    box-shadow: 0 0 1rem black;
+    max-width:1200px;
 }
-
-ul{
-    display: flex; /* faz os itens*/
-    margin: 30px;
-}
-
-li{
-    color: blueviolet;
-    list-style-type: none; /*tira as bolinhas da lista*/
-    cursor: pointer; /*muda o cursor quando passa em cima*/
-    padding-left: 15px; /*coloca espaçamento no lado esquerdo*/
+.nav {
+    
 }
